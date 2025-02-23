@@ -45,7 +45,7 @@ l1 = [2 → 4 → 3], l2 = [5 → 6 → 4]
 
 🔹 Java Code  
 
-
+```java
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(0);
@@ -73,6 +73,7 @@ class Solution {
         return dummy.next;
     }
 }
+
 🔹 Related Problems
 
 🔹 LeetCode 445: Add Two Numbers II (digits stored in forward order)
