@@ -6,7 +6,10 @@ class Solution {
         for (int i = 0; i < numRows; i++) {
             List<Integer> row = new ArrayList<>();
 
+
             
+
+
             row.add(1);
             
             
