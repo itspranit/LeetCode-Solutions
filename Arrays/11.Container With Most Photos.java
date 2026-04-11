@@ -1,9 +1,9 @@
 class Solution {
     public int maxArea(int[] height) {
-        int n = height.length; // Get the length of the height array
-        int area = 0; // Variable to store the maximum area
-        int i = 0; // Left pointer starting at the beginning
-        int j = n - 1; // Right pointer starting at the end
+        int n=height.length; // Get the length of the height array
+        int area=0; // Variable to store the maximum area
+        int i=0; // Left pointer starting at the beginning
+        int j=n-1; // Right pointer starting at the end
         
         // Loop until the two pointers meet
         while (i < j) {
