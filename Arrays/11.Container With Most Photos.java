@@ -7,7 +7,6 @@ class Solution {
         
         // Loop until the two pointers meet
         while (i < j) {
-            
             // Calculate the current area and update the maximum area
             area = Math.max(area, Math.min(height[i], height[j]) * (j - i));
             
