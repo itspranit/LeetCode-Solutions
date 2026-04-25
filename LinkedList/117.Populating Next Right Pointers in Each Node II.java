@@ -5,6 +5,7 @@ class Solution {
         bfs(queue);
         return root;
     }
+    
     public void bfs(Queue<Node> queue){
         Queue<Node> temp=new LinkedList<>();
         while(!queue.isEmpty()){
