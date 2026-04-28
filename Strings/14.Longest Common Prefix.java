@@ -2,14 +2,12 @@ import java.util.Arrays; // Importing Arrays class for sorting
 
 class Solution {
     public String longestCommonPrefix(String[] strs) {
-        int inx = 0; // Index to track the common prefix length
-        
-        // Sorting the array lexicographically
+        int inx = 0; 
         Arrays.sort(strs);
 
-        // The first and last strings in the sorted array
-        String s1 = strs[0]; // First string (smallest lexicographically)
-        String s2 = strs[strs.length - 1]; // Last string (largest lexicographically)
+       
+        String s1 = strs[0]; 
+        String s2 = strs[strs.length - 1]; 
 
         // Compare characters of s1 and s2 to find the common prefix
         while (inx < s1.length() && inx < s2.length()) {
