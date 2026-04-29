@@ -8,7 +8,6 @@ class Solution {
         }
         return res;
     }
-
     public int mirrorDistance(int n) {
         return Math.abs(n - reverse(n));
     }
