@@ -9,6 +9,8 @@ class Solution {
                 java.util.Arrays.fill(col, (int)-1e9);
             }
         }
+
+        
         dp[0][0][1] = 0;
         dp[0][0][2] = 0;
         dp[0][0][0] = coins[0][0];
