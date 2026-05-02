@@ -15,7 +15,7 @@ class Solution {
         ListNode current = dummy;  // Pointer to build the result list
         int carry = 0;  // Stores carry-over value for addition
         
-        // Traverse both lists until both are exhausted and no carry remains
+      
         while (l1 != null || l2 != null || carry != 0) {
             int sum = carry;  // Start with carry from the previous step
             
