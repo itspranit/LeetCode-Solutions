@@ -7,6 +7,7 @@ class Solution {
                 str.append(arr[i]).append(" ");
             }
         }
+        
         return str.toString().trim();
     }
 }
