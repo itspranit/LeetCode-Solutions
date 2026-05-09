@@ -15,7 +15,6 @@ public class Solution {
         if (head == null || head.next == null) {
             return null;
         }
-
         Set<ListNode> visited = new HashSet<>();
         ListNode current = head;
         
