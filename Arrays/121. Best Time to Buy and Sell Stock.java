@@ -15,7 +15,6 @@ class Solution {
         this.prices = prices;
         return dp(0,0,1);
     }
-    
     public int dp(int i, int holding, int remain) {
         if (i == n || remain == 0) {
             return 0;
