@@ -7,8 +7,6 @@ class Solution {
             List<Integer> row = new ArrayList<>();
 
             row.add(1);
-            
-            
             for (int j = 1; j < i; j++) {
                 
                 int value = triangle.get(i - 1).get(j - 1) + triangle.get(i - 1).get(j);
