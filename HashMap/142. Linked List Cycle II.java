@@ -16,6 +16,7 @@ public class Solution {
             current = current.next;
         }
 
+
         return null;
     }
 }
