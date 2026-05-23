@@ -4,7 +4,7 @@ class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
 
-        // Sort the array to make it easier to avoid duplicates and use two-pointer approach
+        
         Arrays.sort(nums);
 
         // Iterate through the array, treating nums[i] as the first number in the triplet
