@@ -7,7 +7,7 @@ class Solution {
         
         Arrays.sort(nums);
 
-        // Iterate through the array, treating nums[i] as the first number in the triplet
+        
         for (int i = 0; i < nums.length; i++) {
             // Skip duplicate elements to avoid duplicate triplets
             if (i > 0 && nums[i] == nums[i - 1]) {
