@@ -15,7 +15,6 @@ class Solution {
                 dp[i][j]=Math.min(down,downRight);
             }
         }
-
         return dp[0][0];
     }
 }
