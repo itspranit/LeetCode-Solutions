@@ -8,7 +8,6 @@ class MinStack {
         stack = new Stack<>();
         minStack = new Stack<>();
     }
-
     public void push(int val) {
         stack.push(val);
         // If minStack is empty or the new value is less than or equal to the current minimum
