@@ -8,6 +8,7 @@ class LRUCache {
         Node(int key,int value){
             this.key=key;
             this.value=value;
+
         }
     }
     Map<Integer,Node> map;
