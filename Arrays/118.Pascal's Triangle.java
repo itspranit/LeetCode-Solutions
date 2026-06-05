@@ -12,7 +12,6 @@ class Solution {
                 row.add(value);
             }
             
-    
             if (i > 0) {
                 row.add(1);
             }
