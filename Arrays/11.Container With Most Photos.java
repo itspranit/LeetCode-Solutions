@@ -6,7 +6,7 @@ class Solution {
         int j=n-1; // Right pointer starting at the end
 
         while (i < j) {
-            // Calculate the current area and update the maximum area
+            
             area = Math.max(area, Math.min(height[i], height[j]) * (j - i));
             
             // Move the pointer pointing to the smaller height
