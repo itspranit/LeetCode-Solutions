@@ -11,7 +11,6 @@ class Solution {
                 int value = triangle.get(i - 1).get(j - 1) + triangle.get(i - 1).get(j);
                 row.add(value);
             }
-            
             if (i > 0) {
                 row.add(1);
             }
