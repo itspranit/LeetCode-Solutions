@@ -7,6 +7,5 @@ class Solution {
             ans=ans^nums[i];
         }
         return ans;
-
     }
 }
