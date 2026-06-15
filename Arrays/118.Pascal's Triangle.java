@@ -13,6 +13,7 @@ class Solution {
             if (i > 0) {
                 row.add(1);
             }
+            
             triangle.add(row);
         }
         return triangle;
