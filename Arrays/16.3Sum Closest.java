@@ -4,7 +4,6 @@ class Solution {
     public int threeSumClosest(int[] nums, int target) {
         // Sort the array to enable the two-pointer approach
         Arrays.sort(nums);
-        
         // Initialize the closest sum with the first three numbers
         int closestSum = nums[0] + nums[1] + nums[2]; 
 
