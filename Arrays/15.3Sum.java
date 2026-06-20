@@ -13,7 +13,6 @@ class Solution {
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
-            // Use two-pointer technique to find pairs that sum to -nums[i]
             int left = i + 1;
             int right = nums.length - 1;
 
