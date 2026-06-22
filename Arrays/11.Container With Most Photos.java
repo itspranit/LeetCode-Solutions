@@ -15,8 +15,6 @@ class Solution {
                 i++; // Move left pointer forward
               
             } else {
-
-                
                 j--; // Move right pointer backward
               
             }
