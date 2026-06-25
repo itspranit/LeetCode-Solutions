@@ -18,7 +18,6 @@ class Solution {
         for (int i = 0; i < n; i++) {
             fast = fast.next;
         }
-        
         // If fast reaches null, it means we need to remove the head node
         if (fast == null) {
             return head.next;
