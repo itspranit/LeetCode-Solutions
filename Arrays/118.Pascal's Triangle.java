@@ -15,6 +15,7 @@ class Solution {
             }
             triangle.add(row);
         }
+        
         return triangle;
     }
 }
